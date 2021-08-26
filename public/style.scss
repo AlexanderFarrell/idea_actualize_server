@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body {
+  background: linear-gradient(0deg, #5a6458 0%, #334933 30%);
+  min-height: 100vh;
+  margin: 0;
+  font-size: 40px;
+  font-family: 'Work-Sans', sans-serif;
+  color: white;
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  margin: 0;
+}
+
+#NavigationBar {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+
+.Button {
+  background: linear-gradient(180deg, #5a7351, #426249);
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid #2b4f20;
+}
+
+.Button:hover {
+  background: linear-gradient(180deg, #7ad27e, #6ca660);
+  cursor: pointer;
+}
+
+.Reading {
+  font-size: 12px;
+}
+
+#Template {
+  min-height: 100vh;
+}
+
+#AuthScreen {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+}
+
+.scroll {
+  max-width: 100%;
+  overflow-y: scroll;
+}
+
+input, textarea {
+  -webkit-appearance: none;
+  width: 90%;
+  margin: 10px 5% 5px 5%;
+  border-radius: 5px;
+  padding: 0;
+
+  border: 2px solid #ffffff;
+  display: inherit;
+
+  text-align: center;
+  font-size: inherit;
+
+  background-color: #c7ffc2;
+  color: #000000;
+}
+
+.AuthScreen {
+  background: linear-gradient(0deg, #8d9886, #66776c);
+  padding: 30px;
+  margin: auto;
+  width: min(100vw, 400px);
+  border-radius: 10px;
+  border: 2px solid #a3c996;
+  box-shadow: black 1px 1px 5px;
+}
+
+#MenuScreen {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+}
+
+.MenuScreen {
+  background: linear-gradient(0deg, #8d9886, #66776c);
+  padding: 30px;
+  margin: auto;
+  width: min(300vw, 400px);
+  border-radius: 10px;
+  border: 2px solid #a3c996;
+  box-shadow: black 1px 1px 5px;
+}
+
+#IdeaScreen {
+  margin: 10px;
+  width: 100%;
+}
+
+.IdeaScreen {
+
+}
+
+.Idea {
+  background: linear-gradient(0deg, #6f8c5d, #44654d);
+  box-shadow: black 1px 1px 3px;
+  padding: 2px;
+  margin: 8px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.DescItem {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}

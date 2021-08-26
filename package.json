@@ -1,0 +1,30 @@
+{
+  "name": "idea",
+  "version": "0.0.1",
+  "description": "Stores ideas and organizes them for use",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js NAME_OF_APP='idea'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "idea"
+  ],
+  "author": "\"MorphSight LLC\"",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "connect-redis": "^6.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.3.0",
+    "express-session": "^1.17.2",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1",
+    "redis": "^3.1.2",
+    "sass": "^1.38.1"
+  }
+}
